@@ -1,0 +1,139 @@
+@media (max-width: 430px) {
+     /* margenes laterales */
+    .ancho {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* titulos */
+    .columna-texto h2,
+    .encabezado-servicios h2,
+    .encabezado-galeria h2,
+    .subtitulo {
+        font-size: 26px;
+        line-height: 34px; 
+    }
+    
+    /*botón rojo texto */
+    .columna-texto .boton-rojo {
+        margin-bottom: 40px;
+        display: inline-block;
+    }
+    
+    /*HEADER Y MENÚ SÁNDWICH --- */
+    .contenedor-barra-interno {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contenedor-barra-contacto {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    .contenedor-barra-rsociales {
+        display: none; 
+    }
+    .icono-hamburguesa {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .contenedor-nav {
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    .contenedor-nav ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--blanco);
+        flex-direction: column;
+        gap: 0;
+        z-index: 999;
+        border-top-width: 2px;
+        border-top-style: solid;
+        border-top-color: var(--rojo-principal);
+    }
+
+    .contenedor-nav a {
+        display: block;
+        padding: 15px 0px;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: var(--blanco);
+    }
+
+    /* SLIDER*/
+    .slider-contenido {
+        width: 90%;
+    }
+
+    .slider-contenido h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .rslides img {
+        height: 500px;
+    }
+
+    .rslides_nav {
+        display: none; 
+    }
+
+    /*  ----PARALLAX ESTADISTICAS */
+    .contenedor-estadisticas {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    /* -----GRID SERVICIOS E IFRAME DE VIDEO --- */
+    .contenedor-grid-servicios {
+        grid-template-areas: 
+            "serv1"
+            "serv2"
+            "serv3"
+            "serv4"
+            "serv5"
+            "serv6";
+        grid-template-columns: 100%;
+    }
+    .contenedor-grid-video {
+        grid-template-areas: 
+            "area-video"
+            "area-texto";
+        grid-template-columns: 100%;
+    }
+
+    /* -----FANCYBOX / FORMULARIOS --- */
+    .img-fancy {
+        width: 100%; 
+        height: auto;
+    }
+
+    .formulario-neto {
+        padding: 20px;
+    }
+
+    /* -FOOTER */
+    .contenedor-pie {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .columna-pie {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .item-contacto {
+        justify-content: center;
+    }
+
+    .redes-pie {
+        justify-content: center;
+    }
+}

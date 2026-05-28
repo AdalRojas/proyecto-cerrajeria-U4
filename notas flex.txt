@@ -1,0 +1,72 @@
+cuando se hace un menu debo de poner un display inline- block 
+o boton (href) se usa de ley display-inline block.
+
+El display inline-block lo lleva el hijo.
+
+El display flex lo lleva el padre.
+
+display:flex;
+atributos:
+----
+flex-direction:row //fila
+flex-direction: column //columna
+----
+justify-content: flex-start //se pega al inicio del contenedor 
+justify-content: flex-end // se pega al final del contenedor
+justify-content: space-beetwen //separa simetricamente los hijos pero no deja espacio en las laterales
+justify-content: space-around
+justify-content: space-evently //al parecer la mejor opción para centrar.
+----
+align-items: flex-start, flex-end, center, strech.
+----
+
+flex-wrap: nowrap; //Siempre los hijos se van a mantener juntos, con el wrap es para qué cuando se redimensione se ponga uno debajo de otro.
+----
+flex-grow: 1 //sirve para ponerle al hijo, el espacio sobrante del espacio sobrante del papá
+Para centrar es, PONER LOS ATRIBUTOS en el PAPÁ.
+display: flex
+flex-direction: row;
+justify-content: space-evenly;
+aligth-items: center;
+gap: 10px
+
+--------
+POSITION ABSOLUTE
+¿Como ponerle un circulo de fondo a un icono?
+.circulo{
+	width: 30px //Tamaño de ancho del rectangulo
+	heigth: 30px // Tamaño de altura del rectangulo
+	border-radius: 50%	// aqui le da forma circular por medio 	del borde
+	backgroud-color: blanco //color del circulo
+}
+
+PARALLAX
+A un section o contenedor le pones class= parallax en html
+ejemplo
+
+        <section class="ancho parallax">
+            <div class="filtro-parallax">
+                <h2>01<p>Video Surveillance</p></h2>
+                <h2>02<p>Locksmith Services</p></h2>
+                <h2>03<p>Access Control/p></h2>
+                <h2>04<p>Safes & Locks r</p></h2>
+            </div>
+        </section>
+
+Y en css
+
+
+
+
+
+
+Tu haces tu formulario y le pones un id
+Cambiar los inputs
+la mayoria de los if estan los ids
+el de nombre se repite porqué va a verificar si esta vacio.
+cambiar el send message por una más sencillo.
+
+al final se va a poner un buttom con su id.
+
+
+El logo debe de llevar a HOME (index)
